@@ -1,0 +1,426 @@
+/* General Settings */
+
+body {
+	font-size: 100%;
+	color:#111111;
+	background:#fdfdfd;
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	font-family: 'Maven Pro', sans-serif;
+  font-weight:400;
+}
+
+/* Clearfix */
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+.group:after {
+    clear: both;
+}
+.group {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+/* GENERAL */
+
+a {
+  text-decoration: none;
+}
+
+/* SECTIONS */
+
+/* ONE - LAYOUT */
+.one {
+	background: #ffffff;
+  padding: 18px 5% 18px 5%;
+}
+
+.logo {
+  float: left;
+}
+
+.logo a {
+  display: block;
+}
+
+.navigationBar {
+  float: right;
+}
+
+.navigationBar a {
+  padding: 0 0 0 0.4em;
+}
+
+/* ONE - FONT */
+
+.logo {
+  font-family: 'Montserrat', sans-serif;
+  font-weight:700;
+  line-height:2.618em;
+  font-size: 0.8em;
+  margin:0;
+}
+
+.logo a {
+  color:#FFFFFF;
+}
+
+.navigationBar a{
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 0.8em;
+  font-weight: 700;
+  line-height: 2.618em;
+  color: #F9F9F9;
+}
+
+.navigationBar a:hover {
+  color: #FFFFFF;
+}
+
+/* TWO */
+
+.two {
+	height: 1px;
+	background: #2fa7f1;
+}
+
+
+/* THREE */
+
+.three {
+	margin: 5%;
+}
+
+/* THREE - FONTS */
+
+/* HOME PAGE - LAYOUT */
+
+.homeMatrix {
+  padding-top: 20px;
+}
+
+.homeMatrixBenefit {
+  display: inline-block;
+  text-align: center;
+  width: 20%;
+}
+
+.homeMatrixBenefit i {
+  background: blue;
+  color: white;
+  padding: 5px;
+}
+
+/* HOME PAGE - FONTS */
+
+.navigationBar a {
+  text-transform: uppercase;
+}
+
+/* COMING SOON - LAYOUT */
+
+.comingSoonCenter {
+	text-align: center;
+}
+
+#mc-embedded-subscribe {
+	padding: 10px;
+	margin: 10px;
+	background: #2B9AF3;
+	border: 1px solid #2fa7f1;
+	text-align: center;
+}
+
+
+
+/* COMING SOON - FONTS */
+
+.comingSoonText {
+	font-size: 1em;
+	line-height: 1.618em;
+}
+
+.emailSubscribeText {
+	font-family: 'Maven Pro', sans-serif;
+  font-weight:400;
+	font-size: 1em;
+	line-height: 1.618em;
+}
+
+#mce-EMAIL {
+	font-family: 'Maven Pro', sans-serif;
+  font-weight:400;
+	font-size: 1em;
+	line-height: 1.618em;
+}
+
+
+.comingSoonHeading {
+	font-family: 'Maven Pro', sans-serif;
+  font-weight:700;
+  color:#111111;
+  font-size: 1.618em;
+  line-height:1.618em;
+}
+
+#mc-embedded-subscribe {
+	font-family: 'Maven Pro', sans-serif;
+  font-weight: 700;
+	color: #ffffff;
+	text-transform: uppercase;
+
+}
+
+/* BLOG MENU - LAYOUT */
+
+.blogPostList {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.blogPostList li a{
+	display:block;
+	border-bottom: 1px solid #a09e99;
+}
+
+.blogPostList li a:hover{
+	background-color: #2B9AF3;
+}
+
+.blogPostTitle {
+	float: left;
+	width: 72%;
+}
+
+.blogPostDate {
+	float: right;
+	width: 22%;
+}
+
+
+/* BLOG MENU - FONTS */
+
+.blogHeading {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 1.2em;
+  font-weight: 700;
+  line-height: 2em;
+  color: #111111;
+}
+
+.blogPostList li a {
+  color: #111111;
+}
+
+.blogPostTitle {
+  font-family: 'Maven Pro', sans-serif;
+	font-weight:700;
+	color:#111111;
+  font-size: 1em;
+	line-height:1.28em;
+}
+
+.blogPostDate {
+  font-family: 'Maven Pro', sans-serif;
+	color: #aaa;
+	font-size:0.8em;
+	line-height:1.28em;
+}
+
+.blogPostDate:hover {
+  font-family: 'Maven Pro', sans-serif;
+  color: #ffffff;
+  font-size:0.8em;
+  line-height:1.28em;
+}
+
+/* BLOG POST - LAYOUT */
+
+.postImgBox {
+  text-align: center;
+}
+
+.postImage {
+  max-width:100%;
+  height:auto;
+  border: 3px solid #111111;
+}
+
+.postImageCaption {
+  padding-bottom: 1em;
+}
+
+.postEmailSubscribe {
+	text-align: center;
+	margin: 5%;
+}
+
+.postEmailSubscribeHeading, .postCommentsHeading {
+	background: #2B9AF3;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.postComments {
+	margin: 5%;
+}
+
+/* BLOG POST - FONTS */
+
+.postTitle {
+  font-family: 'Maven Pro', sans-serif;
+  font-weight:700;
+  color:#111111;
+  font-size: 1.618em;
+  line-height:1.618em;
+}
+
+.postDate {
+  font-family: 'Maven Pro', sans-serif;
+  color: #aaa;
+  font-size: 1em;
+  line-height:1.618em;
+}
+
+.postImageCaption {
+  text-align: center;
+  font-family: 'Maven Pro';
+  font-size: 1em;
+  line-height: 1.618em;
+}
+
+.postParagraph {
+  font-family: 'Maven Pro';
+  font-size: 1em;
+	line-height: 1.618em;
+}
+
+.postListUl {
+  font-family: 'Maven Pro';
+  font-size: 1em;
+  line-height: 1.618em;
+}
+
+.postEmailSubscribeHeading, .postCommentsHeading {
+	font-family: 'Maven Pro', sans-serif;
+  font-weight:700;
+  color:#ffffff;
+  font-size: 1.618em;
+  line-height:1.618em;
+}
+
+
+/* FOUR - LAYOUT */
+
+.four {
+	height: 1px;
+	background: #2fa7f1;
+}
+
+/* FIVE - LAYOUT */
+
+.five {
+  text-align: center;
+  background: #2B9AF3;
+  padding-bottom: 1em;
+}
+
+.footerNavigationUl{
+  list-style: none;
+  padding: 0;
+	margin: 0;
+}
+
+/* FIVE - FONTS */
+
+.footerNavigationUl li a{
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 1.2em;
+  font-weight: 700;
+  line-height: 2em;
+  color: #FDFDFD;
+}
+
+.footerAlternative {
+  background: #2fa7f1;
+}
+
+.footerNavigationUl li a:hover {
+  color: #2B9AF3;
+  background: #fdfdfd;
+}
+
+/* SIX - LAYOUT */
+
+.six {
+  text-align: center;
+  background: #2B9AF3;
+  padding: 1%;
+}
+
+/* SIX - FONTS */
+
+.copyright {
+  font-family: 'Maven Pro', sans-serif;
+  line-height: 1.618em;
+  font-size: 10pt;
+  color: white;
+}
+
+/* MEDIA QUERIES */
+
+/* Small 480px - 30em */
+@media all and (min-width: 30em) {
+	.three {
+		margin: 5% 10% 5% 10%;
+	}
+
+	body {
+		font-size: 112%;
+	}
+}
+
+
+/* Medium 600px - 37.5em */
+
+@media all and (min-width: 37.5em) {
+
+	body {
+		font-size: 128%;
+	}
+}
+
+/* Large 768px - 48em */
+
+@media all and (min-width: 48em) {
+
+	body {
+		font-size: 141%;
+	}
+}
+
+/* XL 992px - 62em */
+
+@media all and (min-width: 62em) {
+
+	body {
+		font-size: 154%;
+	}
+}
+
+/* XXL 1382px - 86.375em */
+
+@media all and (min-width: 86.375em) {
+
+	body {
+		font-size: 166%;
+	}
+}
